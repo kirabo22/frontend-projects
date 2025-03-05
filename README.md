@@ -1,14 +1,14 @@
 # Frontend Projects
-PROJECT 1: HABIT TRACKER APP
+*PROJECT 1: HABIT TRACKER APP
 
-basic functionality without adding buttons.
+*basic functionality without adding buttons.
 
-allow addind buttons.
+*allow addind buttons.
 
-allow deletind buttons with custom right-click
+*allow deletind buttons with custom right-click
 
-light/dark mode
+*light/dark mode
 
-saving local storage
+*saving local storage
 
-tracking streaks
+*tracking streaks
