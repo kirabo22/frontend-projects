@@ -1,6 +1,6 @@
 # Frontend Projects
-***PROJECT 1: HABIT TRACKER APP
-**
+PROJECT 1: HABIT TRACKER APP
+
 *basic functionality without adding buttons.
 
 *allow addind buttons.
