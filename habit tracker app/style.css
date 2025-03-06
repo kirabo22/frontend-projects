@@ -30,6 +30,7 @@ body {
     background-color: var(--primary);
     padding: var(--med);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -40,6 +41,8 @@ body {
     padding: var(--sm);
     display: grid;
     place-items: center;
+    width: 100%;
+    max-width: 300px;
     border: 1px solid red;
 }
 
@@ -65,18 +68,25 @@ body {
     transition: all 300ms ease-in-out;
 }
 
+.dark .theme::before {
+    transform: translateX(25px);
+}
+
+
 h1 {
     font-size: var(--med);
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .habit-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 1fr); 
     gap: 1.5rem; 
     padding: 1rem;
-    max-width: 250px; 
+    max-width: 300px; 
+    border: 1px solid var(--secondary);
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -126,4 +136,13 @@ h1 {
     align-items: center;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.new-habit {
+    grid-column: span 2; 
+    margin-top: 2rem; 
+    display: flex;
+    justify-content: center;
+};

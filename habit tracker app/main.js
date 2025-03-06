@@ -8,3 +8,8 @@ habits.forEach(habit => {
     });
 
     });
+
+    const themeButton = document.getElementById('theme');
+    themeButton.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+    });  
